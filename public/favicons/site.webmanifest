@@ -1,14 +1,14 @@
 {
-  "name": "Next.js",
-  "short_name": "Next.js",
+  "name": "c",
+  "short_name": "c",
   "icons": [
     {
-      "src": "/favicons/android-chrome-192x192.png",
-      "sizes": "192x192",
+      "src": "/favicons/favicon-192x192.png",
+      "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "/favicons/android-chrome-512x512.png",
+      "src": "/favicons/favicone-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }

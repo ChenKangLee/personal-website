@@ -30,7 +30,7 @@ export default function SLAMPost() {
           <>
             <article className="mb-32">
               <Head>
-                <title>citibike</title>
+                <title>SLAM</title>
                 <meta property="og:image" />
               </Head>
               <PostHeader

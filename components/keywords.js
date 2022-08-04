@@ -1,4 +1,3 @@
-
 export default function Keywords({ keywords }) {
 return (
     <div className="flex item-center">

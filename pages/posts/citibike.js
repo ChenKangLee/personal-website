@@ -30,7 +30,7 @@ export default function CitiBikePost() {
           <>
             <article className="mb-32">
               <Head>
-                <title>citibike</title>
+                <title>Citibike</title>
                 <meta property="og:image" />
               </Head>
               <PostHeader

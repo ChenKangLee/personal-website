@@ -30,7 +30,7 @@ export default function SpotifyPost() {
           <>
             <article className="mb-32">
               <Head>
-                <title>citibike</title>
+                <title>Spotify</title>
                 <meta property="og:image" />
               </Head>
               <PostHeader
