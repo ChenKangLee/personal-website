@@ -12,7 +12,7 @@ import 'katex/dist/katex.min.css'
 import markdownStyles from '../../styles/markdown-styles.module.css'
 
 import CaptionedImage from '../../components/captionedImage'
-import mapLayout from '../../public/assets/blog/slam/map_layout.jpeg'
+import mapLayout from '../../public/assets/blog/slam/map_layout.png'
 import kalmanAlgo from '../../public/assets/blog/slam/kalman.png'
 import circularRes from '../../public/assets/blog/slam/circular.png'
 import circularThree from '../../public/assets/blog/slam/3circular.png'
