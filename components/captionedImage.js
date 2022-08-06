@@ -12,7 +12,7 @@ export default function CaptionedImage({ src, caption, scale }) {
             "justifyContent": "center"
           }}
         >
-          <Image src={src}/>
+          <Image src={src} alt={caption}/>
         </div>
         <p className='text-center text-sm text-slate-600 italic'>{caption}</p>
       </div>
