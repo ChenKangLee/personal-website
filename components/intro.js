@@ -10,13 +10,7 @@ export default function Intro() {
             </div>
             <div>
                 <h4 className="text-left text-lg text-gray-700">
-                    I love learning new things.
-                </h4>
-                <h4 className="text-left text-lg text-gray-700">
-                    I use this website to document my journey.
-                </h4>
-                <h4 className="text-left text-lg text-gray-700">
-                    Hope you enjoy!
+                    This is a website I use to document the cool stuff I learn and did.
                 </h4>
             </div>
         </section>

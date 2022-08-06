@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router'
 import Head from 'next/head'
-import Image from 'next/image'
 import Container from '../../components/container'
 import Header from '../../components/header'
 import PostHeader from '../../components/post-header'
@@ -37,7 +36,7 @@ export default function CitiBikePost() {
                 title='Recreating the GCN Model on Citibike Dataset'
                 coverImage='/assets/img/stonewall.jpg'
                 date='2020-01-16T05:35:07.322Z'
-                photoDescription='A picture of the stone wall somewhere in Taichung. Shot with Pentax KX and Agfa APX 400.'
+                photoDescription='A picture of a stone wall somewhere in Taichung. Shot with Pentax KX and Agfa APX 400.'
               />
               <div className="max-w-2xl mx-auto text-justify">
                 <div className={markdownStyles['markdown']}>
