@@ -11,7 +11,7 @@ export default function PostHeader({ title, coverImage, date, photoDescription }
         <CoverImage title={title} src={coverImage} height={620} width={1240} />
         <p className='text-right text-slate-400 italic'>{photoDescription}</p>
       </div>
-      <div className="mb-6 text-lg">
+      <div className="mb-6 text-bold text-xl">
         <DateFormatter dateString={date} />
       </div>
     </>

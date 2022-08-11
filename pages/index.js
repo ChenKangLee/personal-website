@@ -1,3 +1,5 @@
+import { join } from 'path'
+
 import Container from '../components/container'
 import MoreStories from '../components/more-stories'
 import Intro from '../components/intro'
@@ -14,7 +16,7 @@ export default function Index({ allPosts }) {
         </Head>
         <Container>
           <Intro />
-          <MoreStories posts={allPosts} />
+          <MoreStories topic={"Projects."} posts={allPosts} />
         </Container>
       </Layout>
     </>
@@ -22,14 +24,18 @@ export default function Index({ allPosts }) {
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts([
-    'title',
-    'date',
-    'slug',
-    'keywords',
-    'coverImage',
-    'excerpt',
-  ])
+  const projectsDirectory = join(process.cwd(), '_posts')
+
+  const allPosts = getAllPosts(
+    [
+      'title',
+      'date',
+      'slug',
+      'keywords',
+      'coverImage',
+      'excerpt'
+    ]
+  )
 
   return {
     props: { allPosts },
